@@ -7,9 +7,11 @@
 </head>
 <body>
     <?php
-        $colore = "red";
+        $red = rand(0, 255);
+        $green = rand(0, 255);
+        $blue = rand (0, 255);
         $nome = "Gabriel";
-        echo "<h1 style='color:$colore;'>{$nome}</h1>"
+        echo "<h1 style='color:rgb($red,$green,$blue);'>{$nome}</h1>"
     ?>
 </body>
 </html>
